@@ -1,0 +1,225 @@
+ .bg-containers{
+    background-image: url("./pics/5.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1px;
+    position: relative;
+    margin: 0;
+}
+
+.about{
+
+  background-image: url("./pics/1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin: 0;
+}
+
+.service{
+  background-image: url("./pics/3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1px;
+    position: relative;
+    margin: 0;
+
+}
+
+.contact{
+  background-image: url("./pics/6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  margin: 0;
+}
+
+.client{
+  background-image: url("./pics/2.jpg");
+    float: right;
+    width: 50%;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 1px;
+    position: sticky;
+    margin: 0;
+  }
+
+.box{
+  color: antiquewhite;
+  background: rgba(128, 6, 6, 0.685);
+  float: left;
+  width: 460px;
+  padding-right: 75px;
+  border: 1px solid rgb(14, 3, 59) ;
+}
+
+.boxer{
+
+    color: antiquewhite;
+    background: rgba(128, 6, 6, 0.685);
+    float: right;
+    width: 460px; 
+    border: 1px solid rgb(14, 3, 59) ;
+  
+}
+
+.boxed {
+  width: fit-content;
+  padding: 35px;
+  border: 1px solid rgb(14, 3, 59) ;
+}
+
+.abt p{
+  text-align: justify;
+  color: cornflowerblue;
+}
+
+.abt{
+  padding-right: 30%;
+  padding-left: 30%;
+  border: 20px;
+  align-content: center;
+  font-size: medium;
+  color: #f1f1f1;
+  text-shadow: blue;
+}
+
+.img-resize{
+  height: 76px;
+}
+
+.headrest{
+  position: absolute;
+  scroll-padding-right: inherit;
+  margin-left: 22%;
+  margin-top: 10%;
+    padding-top: 450px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: firebrick;
+}
+.headrest h6{
+  color: coral;
+}
+.tree{
+  list-style-type: none;
+  padding-left: 204px;
+    padding-top: 2px;
+    width: -1px;
+    border-spacing: 164px;
+}
+
+.trees{
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding-right: 204px;
+    padding-top: 62px;
+    width: -1px;
+    border-spacing: 164px;
+
+}
+
+.trees li{
+  list-style-type: none;
+}
+
+.parts{
+  list-style-type: none;
+  padding-left: 287px;
+}
+
+.part{
+  list-style-type: none;
+  float: right;
+  width: min-content;
+  padding: 59px 126px;
+
+}
+
+.headrest h1{
+    font-size: 70px;
+}
+
+.headrest h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   /* Style the search field */
+   form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row p{
+    width: max-content;
+  text-align: justify;
+  padding-left: 10px;
+  font-size: xx-small;
+ }
+ .row{
+   padding-top: 5%;
+ }
+ .se,.re{
+   padding-bottom: 25%;
+ }
+
+ .rows{
+   padding-right: 70%;
+ }
+
+ .text{
+   text-align: center;
+   padding-top: 10%;
+   color: lightpink;
+ }
+
+
+ .extreme {
+ text-align: center;
+ padding-top: 5%;
+ width: 300px;
+ border: 1px solid rgb(14, 3, 59);
+ padding-left: 26px;
+ margin-left: 25%;
+ width: fit-content;
+ background: lightgrey;
+ opacity: 60%;
+ color: black;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
